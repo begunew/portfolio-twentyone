@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --title: #141c3a;
+  --white: #fff;
+  --green: #4a8339;
+  --unitel: #78c81e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Eurostile, sans-serif;
+}
+p {
+  font-family: Europa, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "Eurostile";
+  src: url("./fonts/EurostileBold.woff2") format("woff2"),
+    url("./fonts/EurostileBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "Europa";
+  src: url("./fonts/23c0fcab84d99da0de762de7e220a6e1.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/23c0fcab84d99da0de762de7e220a6e1.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/23c0fcab84d99da0de762de7e220a6e1.woff2")
+      format("woff2"),
+    /* chrome firefox */ url("./fonts/23c0fcab84d99da0de762de7e220a6e1.woff")
+      format("woff"),
+    /* chrome firefox */ url("./fonts/23c0fcab84d99da0de762de7e220a6e1.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("./fonts/23c0fcab84d99da0de762de7e220a6e1.svg") format("svg"); /* iOS 4.1- */
 }

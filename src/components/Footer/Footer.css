@@ -1,0 +1,85 @@
+.container-footer {
+  height: 500px;
+  background-color: var(--green);
+}
+
+.footer p {
+  font-size: 1.6rem;
+  font-family: Europa;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.footer h1 {
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+
+  text-align: center;
+
+  /* box-shadow: 10px 10px var(--unitel), 10px 10px var(--unitel); */
+}
+
+.footer a {
+  text-decoration: none;
+  border: 1px solid var(--title);
+  width: 400px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--title);
+  color: white;
+  text-decoration: underline solid var(--unitel);
+}
+
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .gray {
+  color: rgb(221, 221, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.footer .learning {
+  font-family: Eurostile;
+  color: white;
+}
+
+.plugin-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.plugin-container i {
+  border: 2px solid var(--unitel);
+  padding: 10px;
+  border-radius: 102px;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+#lol {
+  padding: 10px 13px; /* +3 for other i paddings */
+}
+
+.plugin-container i:hover {
+  background-color: white;
+  color: var(--title);
+  border-color: white;
+}

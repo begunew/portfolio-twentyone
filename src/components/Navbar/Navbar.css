@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-flow: row, nowrap;
+}
+
+nav {
+  margin-top: 30px;
+  min-height: 3rem;
+}
+
+.brand {
+  font-weight: 600;
+  margin-right: 1000px;
+  font-size: 40px;
+  color: var(--unitel);
+  text-decoration: none;
+  font-family: Europa, sans-serif;
+}
+
+.navbar-item {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Europa, sans-serif;
+}
+
+.navbar-item .item-projects {
+  text-decoration: inherit;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 300;
+  margin-right: 40px;
+}
+
+.navbar-item .item-sayhi {
+  text-decoration: inherit;
+  font-family: inherit;
+  color: var(--unitel);
+  font-weight: 500;
+  font-size: 20px;
+  border: 2px solid var(--unitel);
+  border-radius: 290486px;
+  padding: 0.5rem 2rem;
+}
+
+.navbar-item .item-projects:hover {
+  color: var(--green);
+}
+
+.navbar-item .item-sayhi:hover {
+  color: var(--white);
+  background: var(--unitel);
+}

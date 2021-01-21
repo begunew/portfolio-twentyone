@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Main from "./components/Main/Main";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
+
+import { Helmet } from "react-helmet";
+const title = "Bee Lee | Front-end & Back-end Developer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+      <Navbar />
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
+    </>
   );
 }
 

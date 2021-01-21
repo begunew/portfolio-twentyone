@@ -1,0 +1,27 @@
+.container-main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.container-main .title {
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: 800;
+  color: var(--title);
+}
+
+.container-main .subtitle h2 {
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.container-main .portrait img {
+  border: 1px solid transparent;
+  border-radius: 192301px;
+  margin-top: 60px;
+}

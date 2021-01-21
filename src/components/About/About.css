@@ -1,0 +1,27 @@
+.container-about {
+  margin-top: 284px;
+  background-color: var(--green);
+  height: 650px;
+  font-size: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-items: center;
+}
+
+.container-about .container-title h1 {
+  color: var(--white);
+  margin-top: 150px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.container-about .container-subtitle p {
+  font-family: Roboto;
+  font-weight: 300;
+  color: var(--white);
+  margin-top: 30px;
+  font-size: 1.25rem;
+  width: 850px;
+  text-align: center;
+}
